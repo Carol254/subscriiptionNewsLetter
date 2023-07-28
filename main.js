@@ -16,7 +16,7 @@ function validateForm(){
 
         setTimeout(()=>{
             document.getElementById("numloc").innerHTML = "";
-        },3000);
+        },2000);
         return false;
     }else {
         document.subForm.submit();
