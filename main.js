@@ -19,7 +19,7 @@ function validateForm(){
         },3000);
         return false;
     }else {
-        document.getElementById("numloc").innerHTML = "";
+        document.subForm.submit();
         return true;
     }
 }

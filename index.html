@@ -8,11 +8,11 @@
 </head>
 <body>
 
-    <form name="subForm"  onsubmit="validateForm()">
+    <form name="subForm"  onsubmit="return false;">
         <div>FirstName:<input type="text" name="name"></div>
         <div>Password:<input type="password" name="myPassword"></div>
         <div>Number:<input type="text" name="num"><span id="numloc"></span></div>
-        <input type="submit" value="register">
+        <input type="button" value="register" onclick="validateForm()">
         
     </form>
 
