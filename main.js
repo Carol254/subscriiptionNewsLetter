@@ -13,6 +13,10 @@ function validateForm(){
 
     if(isNaN(num)){
         document.getElementById("numloc").innerHTML = "Enter Numeric Value Only";
+
+        setTimeout(()=>{
+            document.getElementById("numloc").innerHTML = "";
+        },3000);
         return false;
     }else {
         document.getElementById("numloc").innerHTML = "";
