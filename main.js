@@ -1,3 +1,18 @@
+function validatePassword(){
+    let msg;
+
+    if(document.subForm.myPassword.value.length >= 8 ){
+        msg = "excellent";
+    }else if(document.subForm.myPassword.value.length > 5){
+        msg = "fair";
+    }else if(document.subForm.myPassword.value.length == 0){
+        msg="no strength";
+    }
+    else{
+        msg="poor";
+    }
+    document.getElementById('passswordStr').innerText = msg;
+}
 function validateForm(){
     let name = document.subForm.name.value;
     let password = document.subForm.myPassword.value;
