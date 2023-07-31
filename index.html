@@ -8,16 +8,19 @@
 </head>
 <body>
 
-    <form name="subForm"  onsubmit="return false;">
-        <div>FirstName:<input type="text" name="name"></div>
-        <div>Password:<input type="password" name="myPassword" onkeyup="validatePassword()">
-            Strength: <span id="passswordStr">no strength</span>
-        </div>
-        <div>Number:<input type="text" name="num"><span id="numloc"></span></div>
-        <div>Email:<input type="text" name="email"></div>
-        <input type="button" value="register" onclick="validateForm()">
-        
-    </form>
+    <div class="myForm">
+        <form name="subForm"  onsubmit="return false;">
+            <div>FirstName:<input type="text" name="name"></div>
+            <div>Password:<input type="password" name="myPassword" onkeyup="validatePassword()">
+                Strength: <span id="passswordStr">no strength</span>
+            </div>
+            <div>Number:<input type="text" name="num"><span id="numloc"></span></div>
+            <div>Email:<input type="text" name="email"></div>
+            <input type="button" value="register" onclick="validateForm()">
+            
+        </form>
+    </div>
+    
 
     <script src="main.js"> </script>
     

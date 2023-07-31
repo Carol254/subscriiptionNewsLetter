@@ -1,0 +1,10 @@
+*{
+    background-color: #d8ecf7;
+}
+.myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff;
+    z-index: 2; */
+}
